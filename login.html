@@ -29,11 +29,10 @@
 			</ol>
 		</div>
 		<form action="login.html">
-			<div>User Name:</div>
-			<div><input type="text" /></div>
-			<div>Password:</div>
-			<div><input type="password" /></div>
-			<div><input type="checkbox"> Remember me</div>
+			
+			<div><label for="userName">User Name:</label><input type="text" id="userName"  autofocus="true" required="required" /></div>
+			<div><label for="userPassword">Password:</label><input type="password" id="userPassword"   required="required"/></div>			
+			<div><input type="checkbox"  id="chkRememberMe"><label for="chkRememberMe">Remember me</label></div>
 			<div>
 				<a href="index.html">Cancel</a>
 				<button type="submit">Submit</button>
